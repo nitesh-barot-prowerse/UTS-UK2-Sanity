@@ -44,9 +44,9 @@ public class PolicyPage {
 
     //Add claim page
 
-    private By cogIcon = By.xpath("//div[@id='gridName']/table/tbody/tr[1]/td[16]/ul/li/a");
+    private By cogIcon = By.xpath("//div[@id='gridName']/table/tbody/tr[1]/td[18]/ul/li/a");
 
-    private By addClaimIcon = By.xpath("//div[@id='gridName']/table/tbody/tr[1]/td[16]/ul/li/ul/li[1]/a");
+    private By addClaimIcon = By.xpath("//div[@id='gridName']/table/tbody/tr[1]/td[18]/ul/li/ul/li[1]/a");
 
     private By displayedMessageOnAddClaimPage = By.xpath("//div[@id='page-wrapper']/div[3]/div/h2");
 
@@ -198,7 +198,7 @@ public class PolicyPage {
     public String clickOnPolicyNumberLink() {
 
         WebDriverWait cWait = new WebDriverWait(driver, Duration.ofSeconds(10));
-        List<WebElement> totalColumn = cWait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(By.xpath("//div[@id='gridName']/table/tbody[1]/tr/td[3]/a")));
+        List<WebElement> totalColumn = cWait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(By.xpath("//div[@id='gridName']/table/tbody[1]/tr/td[4]/a")));
 
         String displayMessage = " ";
         for (WebElement cEle : totalColumn) {
@@ -231,7 +231,7 @@ public class PolicyPage {
     public void clickPolicyPageToDownloadFile() {
 
         WebDriverWait cWait = new WebDriverWait(driver, Duration.ofSeconds(10));
-        List<WebElement> totalColumn = cWait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(By.xpath("//div[@id='gridName']/table/tbody[1]/tr/td[3]/a")));
+        List<WebElement> totalColumn = cWait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(By.xpath("//div[@id='gridName']/table/tbody[1]/tr/td[4]/a")));
 
         for (WebElement cEle : totalColumn) {
             cEle.click();
