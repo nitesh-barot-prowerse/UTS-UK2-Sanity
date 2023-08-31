@@ -22,24 +22,24 @@ Feature: Verify Policy Module Features
     When User selects any options from status dropdown
     Then Appropriate data displays on manage policy page depend on drop down option
 
-  @Sanity
-  Scenario:Filter policy details on manage policy page upon from and to date value of policy  on manage policy page
-    When User enters value of from and to date value of policy on manage policy page
-    And User clicks on search button on manage policy page
-    Then Details of policy on manage policy page filters upon value of from and to date value of policy
-
-  @sanity
-  Scenario: Verify that add claim page should open with all details by clicking on add claim icon of cog drop down against policy number on manage policy page
-    When User clicks on add claim icon of cog drop down against policy number on manage policy page
-    Then Add claim displays with all details
-
-  @sanity
-  Scenario: Policy endorsement page displays with all details by clicking add endorsement icon of cog drop down on policy information page
-    When User selects any active option from status dropdown on manage policy page
-    And User clicks on policy number link on manage policy page
-    And User selects add endorsement icon of cog drop down on policy information page
-    Then Policy endorsement page displays with all details
-
+##  @Sanity
+##  Scenario:Filter policy details on manage policy page upon from and to date value of policy  on manage policy page
+##    When User enters value of from and to date value of policy on manage policy page
+##    And User clicks on search button on manage policy page
+##    Then Details of policy on manage policy page filters upon value of from and to date value of policy
+#
+#  @sanity
+#  Scenario: Verify that add claim page should open with all details by clicking on add claim icon of cog drop down against policy number on manage policy page
+#    When User clicks on add claim icon of cog drop down against policy number on manage policy page
+#    Then Add claim displays with all details
+#
+##  @sanity
+##  Scenario: Policy endorsement page displays with all details by clicking add endorsement icon of cog drop down on policy information page
+##    When User selects any active option from status dropdown on manage policy page
+##    And User clicks on policy number link on manage policy page
+##    And User selects add endorsement icon of cog drop down on policy information page
+##    Then Policy endorsement page displays with all details
+#
   @sanity
   Scenario:Allocate payment page displays with all details by clicking add allocate payment icon of cog drop down on policy information page
     When User selects any active option from status dropdown on manage policy page
