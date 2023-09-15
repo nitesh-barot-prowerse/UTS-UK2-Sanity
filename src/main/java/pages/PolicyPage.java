@@ -644,7 +644,7 @@ public class PolicyPage {
         actions.moveToElement(driver.findElement(cogIconOfPolicyInformationPage)).perform();
         Log.info("Script Has Clicked On Cog Icon To Select Add Allocate Page Icon");
         try {
-            Thread.sleep(3000);
+            Thread.sleep(3500);
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
