@@ -217,7 +217,7 @@ public class PolicyPage {
             Log.info("Script Has Clicked On Policy Number Link On Manage Policy Page");
 
             try {
-                Thread.sleep(4000);
+                Thread.sleep(5000);
             } catch (InterruptedException e) {
                 throw new RuntimeException(e);
             }
@@ -248,7 +248,7 @@ public class PolicyPage {
         totalColumn.click();
         Log.info("Script Has Clicked On Policy Number Link On Manage Policy Page");
         try {
-            Thread.sleep(5000);
+            Thread.sleep(6000);
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
@@ -324,7 +324,7 @@ public class PolicyPage {
     //Check appropriate policy data should displays against option selected from status drop down on manage policy page
     public void selectOptionFromStatusDropDown() {
         try {
-            Thread.sleep(4000);
+            Thread.sleep(6000);
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
@@ -371,7 +371,7 @@ public class PolicyPage {
         driver.findElement(fromDateOfPolicy).sendKeys("23.06.2023");
         Log.info("Script Has Entered From Policy Date On Manage Policy Page");
         try {
-            Thread.sleep(1000);
+            Thread.sleep(1500);
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
@@ -402,7 +402,7 @@ public class PolicyPage {
         actions.moveToElement(driver.findElement(cogIcon)).perform();
         Log.info("Script Has Clicked On Cog Icon");
         try {
-            Thread.sleep(2000);
+            Thread.sleep(2500);
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
@@ -661,6 +661,11 @@ public class PolicyPage {
 
         String displayMessage = " ";
         ArrayList<String> tabs2 = new ArrayList<String>(driver.getWindowHandles());
+        try {
+            Thread.sleep(1500);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
         driver.switchTo().window(tabs2.get(1));
         System.out.println(driver.getCurrentUrl());
         Log.info("Script Redirects To Add Allocate Page Is===>"+driver.getCurrentUrl());
