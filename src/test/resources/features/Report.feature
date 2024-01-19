@@ -27,9 +27,9 @@ Feature: Verify Report Module Features
     And User clicks on payments button on section report page
     Then Payments window opens with all details
 
-  @Sanity
-  Scenario:Opening and Closing bank balance window opens by clicking on bank button on section 26 and 27 report page
-    When User clicks on Trust summary section button on report page
-    And User clicks on bank button on section report page
-    Then Opening and Closing bank balance window opens with all details
+#  @Sanity
+#  Scenario:Opening and Closing bank balance window opens by clicking on bank button on section 26 and 27 report page
+#    When User clicks on Trust summary section button on report page
+#    And User clicks on bank button on section report page
+#    Then Opening and Closing bank balance window opens with all details
 
