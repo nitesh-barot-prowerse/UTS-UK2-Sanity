@@ -13,6 +13,9 @@ public class Constant {
         else if (ENVIRONMENT.equals("UTS-UK2production")) {
             url="https://fitlocal2.britishpetinsurance.co.uk:94/";
         }
+        else if(ENVIRONMENT.equals("UTS-UK2StageTwo")){
+            url="https://stage.petcovergroup.com:5557/";
+         }
     }
 
     protected static String getSaltString() {
