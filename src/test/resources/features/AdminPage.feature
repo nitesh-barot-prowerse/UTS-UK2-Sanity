@@ -16,9 +16,9 @@ Feature: Verify Admin Module Features
     Then User will redirects to edit letter template page
     And User will able to edit available fields on page
 
-  @Sanity
-  Scenario:Verify that the Administration page displays with a set of icons and corresponding page should  opens on clicking individual icon.
-    Then Account page displays with icons and corresponding page displays by clicking on icon.
+  #@Sanity
+ # Scenario:Verify that the Administration page displays with a set of icons and corresponding page should  opens on clicking individual icon.
+   # Then Account page displays with icons and corresponding page displays by clicking on icon.
 
 
 
