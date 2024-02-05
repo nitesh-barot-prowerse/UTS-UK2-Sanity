@@ -8,7 +8,7 @@ Feature: Verify Report Module Features
   Scenario: Click on Report icon on the left tool bar.  Verify that the Report Page displays with six sections.
     Then User will able to see total six section of report category
 
-  @Sanity
+ # @Sanity
 #  Scenario: User will able to redirect on respected report page by clicking on report icon on report page
 #    When User clicks on reports icon
 #    Then Respected report page displays
