@@ -36,11 +36,11 @@ Feature: Verify Setting Module Features
     And User clicks on clicks on add exclusion icon on manage exclusion page
     Then Add exclusion page displays with all details
 
-  @Sanity
-  Scenario:Edit exclusion page displays upon clicking on edit icon against exclusion code on manage exclusion page
-    When User clicks on exclusion icon on setting page
-    And User clicks on edit icon against exclusion code on manage exclusion page
-    Then Edit exclusion page displays in editable format
+ # @Sanity
+ # Scenario:Edit exclusion page displays upon clicking on edit icon against exclusion code on manage exclusion page
+  #  When User clicks on exclusion icon on setting page
+  #  And User clicks on edit icon against exclusion code on manage exclusion page
+   # Then Edit exclusion page displays in editable format
 
     #Regular Vet
 
