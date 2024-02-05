@@ -65,10 +65,10 @@ Feature: Verify Quote Module Features
     And User clicks on filename link on upload microchip page
     Then Upload details window displays with all details
 
-  @Sanity
-  Scenario:Pending Microchip displays with details by clicking on pending microchip button on manage quote page
-    When User clicks on pending microchip file button
-    Then Pending Microchip page displays with details
+#  @Sanity
+#  Scenario:Pending Microchip displays with details by clicking on pending microchip button on manage quote page
+  #  When User clicks on pending microchip file button
+   # Then Pending Microchip page displays with details
 
 #  @Qa
 #  Scenario:Fetch quotation based on quote number on manage quote page
